@@ -3,7 +3,8 @@ import { HeroParallax } from '@/components/global/connect-parallax';
 import { ContainerScroll } from '@/components/global/container-scroll-animation';
 import { InfiniteMovingCards } from '@/components/global/infinite-moving-cards';
 import { LampComponent } from '@/components/global/lamp';
-import Navbar from '@/components/global/Navbar';
+import Navbar from '@/components/global/navbar';
+
 import { Button } from '@/components/ui/button';
 import { clients, products } from '@/lib/constants';
 import { CheckIcon } from 'lucide-react';
@@ -27,7 +28,7 @@ export default function Home() {
                     Start For Free Today
                   </span>
                 </Button>
-                <h1 className='text-5xl md:text-8xl  bg-clip-text text-transparent bg-gradient-to-b from-white to-neutral-600 font-sans font-bold'>
+                <h1 className='text-5xl md:text-8xl  bg-clip-text text-transparent bg-gradient-to-b from-white to-neutral-600 font-sans font-bold pb-5'>
                   Automate Your Work With Fuzzie
                 </h1>
               </div>
